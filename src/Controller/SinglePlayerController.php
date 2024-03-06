@@ -15,7 +15,6 @@ use Symfony\Component\Routing\Attribute\Route;
 #[AllowDynamicProperties] class SinglePlayerController extends AbstractController
 {
     private SinglePlayerService $singlePlayerService;
-
     public function __construct(RequestStack $requestStack)
     {
         $this->requestStack = $requestStack;

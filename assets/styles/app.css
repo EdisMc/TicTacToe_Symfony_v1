@@ -8,7 +8,17 @@ body {
     overflow-x: hidden;
     overflow-y: hidden;
 }
+.d-flex {
+    display: flex !important;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.mr-3 {
+    display: inline;
+}
 h1 {
     font-size: 80px;
     display: flex;
